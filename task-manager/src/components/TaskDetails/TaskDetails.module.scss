@@ -1,0 +1,56 @@
+.taskDetails {
+  width: 40rem;
+  height: 40rem;
+  margin: auto;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+    button {
+      background: transparent;
+      border: none;
+      color: rgb(0, 3, 43);
+    }
+  }
+
+  .date {
+    color: rgb(1, 80, 80);
+  }
+
+  .details {
+    text-align: justify;
+    background-color: skyblue;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    color: rgb(0, 0, 85);
+    height: 90vh;
+    font-size: 1rem;
+  }
+}
+
+.shadow {
+  box-shadow: -3px -3px 7px rgb(74, 154, 185), 2px 2px 5px darkcyan;
+}
+
+.inner_shadow {
+  box-shadow: inset -3px -3px 7px skyblue, inset 2px 2px 5px darkcyan;
+}
+
+.gradient_text {
+  background: linear-gradient(89.97deg, #0086bb 1.84%, #00b97c 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
